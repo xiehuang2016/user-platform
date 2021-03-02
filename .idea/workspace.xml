@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3032fbe-0dad-4fe6-b1e4-d5c7e7735c62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/user_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/user_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/my-web-mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/FrontControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/HandlerMethodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/controller/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/header/CacheControlHeaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/header/HeaderWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/header/annotation/CacheControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-platform.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/function/ThrowableFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/InMemoryUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/filter/CharsetEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/db/DDL/users_table_ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/java.sql.Driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/services/org.geektimes.web.mvc.controller.Controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/coda/footer.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/header.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/include-css.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/include-head-meta.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/include-js.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/include-taglibs.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/jsp/prelude/variables.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/login-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/static/css/bootstrap-4.6.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/static/js/bootstrap-4.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/static/js/jquery-3.5.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/static/js/popper-1.16.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-web/user-web.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p91cJubfTvNjXC1wdUM5KahhI8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/webapp" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geektimes.projects.user.web.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DBConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.sql.DBConnectionManager" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DBConnectionManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3032fbe-0dad-4fe6-b1e4-d5c7e7735c62" name="Default Changelist" comment="" />
+      <created>1614580569868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614580569868</updated>
+      <workItem from="1614580572550" duration="405000" />
+      <workItem from="1614590703031" duration="8554000" />
+      <workItem from="1614646575611" duration="18143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
