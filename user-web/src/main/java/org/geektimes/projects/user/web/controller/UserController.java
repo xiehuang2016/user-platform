@@ -10,12 +10,14 @@ import javax.annotation.PostConstruct;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -25,14 +27,15 @@ import java.sql.SQLException;
 @Path("/user")
 public class UserController implements PageController {
 
-    @Override
-    @GET
+    @POST
     @Path("/register")
     public String execute(HttpServletRequest request, HttpServletResponse response) throws Throwable {
-
+        ServletContext servletContext = request.getServletContext();
+        servletContext.log("register start");
         String name = request.getParameter("name");
         // 1.register page
         if(StringUtils.isEmpty(name)) {
+            servletContext.log("register page");
             return "register.jsp";
         }
         String password = request.getParameter("password");
@@ -45,9 +48,12 @@ public class UserController implements PageController {
         user.setPhoneNumber(phoneNumber);
         // 2.register
         UserServiceImpl userService = new UserServiceImpl();
+        servletContext.log("register method before");
         if(userService.register(user)) {
+            servletContext.log("register method success");
             return "success.jsp";
         }
+        servletContext.log("register method fail");
         return "fail.jsp";
     }
 

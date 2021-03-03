@@ -11,7 +11,6 @@
 		<form action="/user/register" method="post" >
 			<label>姓名</label><input type="text" required="true" name="name"/>
 			<label>密码</label><input type="password" required="true" name="password"/>
-			<label>再次确认密码</label><input type="password" required="true" name="password"/>
 			<label>邮箱</label><input type="text" required="true" name="email"/>
 			<label>手机号</label><input type="text" name="phoneNumber"/>
 			<input type="submit" value="立即注册">
