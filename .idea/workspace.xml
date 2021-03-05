@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3032fbe-0dad-4fe6-b1e4-d5c7e7735c62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DbConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DbDataSource.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/user-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/user-web.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +96,7 @@
       <workItem from="1614590703031" duration="8554000" />
       <workItem from="1614646575611" duration="18764000" />
       <workItem from="1614733053779" duration="12544000" />
-      <workItem from="1614907540096" duration="4446000" />
+      <workItem from="1614907540096" duration="8425000" />
     </task>
     <servers />
   </component>

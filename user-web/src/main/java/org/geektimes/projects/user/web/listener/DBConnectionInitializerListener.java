@@ -1,5 +1,7 @@
 package org.geektimes.projects.user.web.listener;
 
+import org.geektimes.projects.user.context.ComponentContext;
+
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -18,29 +20,14 @@ public class DBConnectionInitializerListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        servletContext = sce.getServletContext();
-        try {
-            Context context = (Context) new InitialContext().lookup("java:comp/env");
-            // 依赖查找
-            DataSource dataSource = (DataSource) context.lookup("jdbc/UserPlatformDB");
-            Connection connection = null;
-            try {
-                connection = dataSource.getConnection();
-            } catch (SQLException e) {
-                servletContext.log(e.getMessage());
-            }
-            if (connection != null) {
-                servletContext.log("get JNDI success");
-            } else {
-                servletContext.log("get JNDI fail");
-            }
-        } catch (NamingException e) {
-            throw new RuntimeException(e);
-        }
+        this.servletContext = sce.getServletContext();
+        ComponentContext context = new ComponentContext();
+        context.init(servletContext);
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-
+        ComponentContext context = ComponentContext.getInstance();
+        context.destroy();
     }
 }

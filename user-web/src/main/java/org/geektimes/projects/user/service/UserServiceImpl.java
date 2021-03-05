@@ -5,7 +5,6 @@ import org.geektimes.projects.user.domain.User;
 import org.geektimes.projects.user.repository.DatabaseUserRepository;
 import org.geektimes.projects.user.repository.UserRepository;
 import org.geektimes.projects.user.sql.DBConnectionManager;
-import org.geektimes.projects.user.sql.DbDataSource;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -15,20 +14,9 @@ import java.sql.SQLException;
  */
 public class UserServiceImpl implements UserService {
 
-    private UserRepository userRepository;
+    public static final String beanName= "UserServiceImp";
 
-    public UserServiceImpl() throws SQLException {
-        DBConnectionManager dbConnectionManager = new DBConnectionManager();
-//        try {
-//            dbConnectionManager.setConnection(DriverManager.getConnection("jdbc:derby:db/user-platform;create=true"));
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//        dbConnectionManager.setConnection(DbConnection.getConnection());
-        Connection connection = DbDataSource.getDataSource().getConnection();
-        dbConnectionManager.setConnection(connection);
-        this.userRepository = new DatabaseUserRepository(dbConnectionManager);
-    }
+    private UserRepository userRepository;
 
     @Override
     public boolean register(User user) {

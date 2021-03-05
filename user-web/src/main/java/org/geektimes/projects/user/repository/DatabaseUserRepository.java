@@ -18,6 +18,10 @@ import static org.apache.commons.lang.ClassUtils.wrapperToPrimitive;
 
 public class DatabaseUserRepository implements UserRepository {
 
+    public static final String beanName= "UserServiceImp";
+
+    private Connection connection;
+
     private static Logger logger = Logger.getLogger(DatabaseUserRepository.class.getName());
 
     /**
@@ -31,14 +35,12 @@ public class DatabaseUserRepository implements UserRepository {
 
     public static final String QUERY_ALL_USERS_DML_SQL = "SELECT id,name,password,email,phoneNumber FROM users";
 
-    private final DBConnectionManager dbConnectionManager;
-
-    public DatabaseUserRepository(DBConnectionManager dbConnectionManager) {
-        this.dbConnectionManager = dbConnectionManager;
+    private Connection getConnection() {
+        return connection;
     }
 
-    private Connection getConnection() {
-        return dbConnectionManager.getConnection();
+    public void setConnection(Connection connection) {
+        this.connection = connection;
     }
 
     @Override
