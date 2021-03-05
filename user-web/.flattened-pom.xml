@@ -52,11 +52,12 @@
             </goals>
             <configuration>
               <path>/</path>
+              <enableNaming>true</enableNaming>
             </configuration>
           </execution>
         </executions>
         <configuration>
-          <contextFile>src/main/webapp/WEB-INF/context.xml</contextFile>
+          <contextFile>src/main/webapp/META-INF/context.xml</contextFile>
           <contextReloadable>true</contextReloadable>
         </configuration>
       </plugin>

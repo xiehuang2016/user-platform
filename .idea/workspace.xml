@@ -2,52 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3032fbe-0dad-4fe6-b1e4-d5c7e7735c62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-web/src/main/webapp/META-INF/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/logs/access_log.2021-03-03" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/META-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/webapps/ROOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/webapps/ROOT/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/user_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/user_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/db/user-platform/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/user-platform/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/db/user-platform/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/db/user-platform/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/seg0/c320.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/user-platform/seg0/c331.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/FrontControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/src/main/java/org/geektimes/web/mvc/FrontControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/classes/org/geektimes/web/mvc/FrontControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/classes/org/geektimes/web/mvc/FrontControllerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/resources/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/classes/META-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/META-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/context.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-web/user-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/user-web.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,6 +65,9 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp\META-INF" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.geektimes.projects.user.web.controller" />
     </key>
@@ -132,7 +120,8 @@
       <workItem from="1614580572550" duration="405000" />
       <workItem from="1614590703031" duration="8554000" />
       <workItem from="1614646575611" duration="18764000" />
-      <workItem from="1614733053779" duration="11609000" />
+      <workItem from="1614733053779" duration="12544000" />
+      <workItem from="1614907540096" duration="4446000" />
     </task>
     <servers />
   </component>

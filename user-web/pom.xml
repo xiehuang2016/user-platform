@@ -53,7 +53,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.1</version>
                 <configuration>
-                    <contextFile>src/main/webapp/WEB-INF/context.xml</contextFile>
+                    <contextFile>src/main/webapp/META-INF/context.xml</contextFile>
                     <contextReloadable>true</contextReloadable>
                 </configuration>
                 <executions>
@@ -67,6 +67,7 @@
                         <configuration>
                             <!-- ServletContext 路径 -->
                             <path>/</path>
+                            <enableNaming>true</enableNaming>
                         </configuration>
                     </execution>
                 </executions>
