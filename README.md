@@ -17,7 +17,7 @@
   ``` java
   严重: Servlet.service() for servlet [FrontControllerServlet] in context with path [] threw exception [null] with root cause
   javax.servlet.ServletException
-          at org.geektimes.web.mvc.FrontControllerServlet.service(FrontControllerServlet.java:163)
+          at org.geektimes.context.FrontControllerServlet.service(FrontControllerServlet.java:163)
           at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
           at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
           at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)

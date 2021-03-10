@@ -1,6 +1,7 @@
 package org.geektimes.projects.user.repository;
 
 import org.geektimes.function.ThrowableFunction;
+import org.geektimes.context.ComponentContext;
 import org.geektimes.projects.user.domain.User;
 import org.geektimes.projects.user.sql.DBConnectionManager;
 
@@ -18,10 +19,6 @@ import static org.apache.commons.lang.ClassUtils.wrapperToPrimitive;
 
 public class DatabaseUserRepository implements UserRepository {
 
-    public static final String beanName= "UserServiceImp";
-
-    private Connection connection;
-
     private static Logger logger = Logger.getLogger(DatabaseUserRepository.class.getName());
 
     /**
@@ -35,19 +32,19 @@ public class DatabaseUserRepository implements UserRepository {
 
     public static final String QUERY_ALL_USERS_DML_SQL = "SELECT id,name,password,email,phoneNumber FROM users";
 
-    private Connection getConnection() {
-        return connection;
+    private final DBConnectionManager dbConnectionManager;
+
+    public DatabaseUserRepository() {
+        this.dbConnectionManager = ComponentContext.getInstance().getComponent("bean/DBConnectionManager");
     }
 
-    public void setConnection(Connection connection) {
-        this.connection = connection;
+    private Connection getConnection() {
+        return dbConnectionManager.getConnection();
     }
 
     @Override
     public boolean save(User user) {
-        return executeQuery(INSERT_USER_DML_SQL, resultSet -> true,
-                COMMON_EXCEPTION_HANDLER, user.getName(), user.getPassword(),
-                user.getEmail(), user.getPhoneNumber());
+        return false;
     }
 
     @Override
@@ -75,29 +72,6 @@ public class DatabaseUserRepository implements UserRepository {
     }
 
     @Override
-    public User getByPhoneNumber(String phoneNumber) {
-        return executeQuery("SELECT id,name,password,email,phoneNumber FROM users WHERE phoneNumber='"+phoneNumber+"'",
-                resultSet -> {
-                    if(!resultSet.next()) {
-                        return null;
-                    }
-                    User user = new User();
-                    BeanInfo userBeanInfo = Introspector.getBeanInfo(User.class, Object.class);
-                    for (PropertyDescriptor propertyDescriptor : userBeanInfo.getPropertyDescriptors()) {
-                        String fieldName = propertyDescriptor.getName();
-                        Class fieldType = propertyDescriptor.getPropertyType();
-                        String methodName = resultSetMethodMappings.get(fieldType);
-                        String columnLabel = mapColumnLabel(fieldName);
-                        Method resultSetMethod = ResultSet.class.getMethod(methodName, String.class);
-                        Object resultValue = resultSetMethod.invoke(resultSet, columnLabel);
-                        Method setterMethodFromUser = propertyDescriptor.getWriteMethod();
-                        setterMethodFromUser.invoke(user, resultValue);
-                    }
-                    return user;
-                }, COMMON_EXCEPTION_HANDLER);
-    }
-
-    @Override
     public Collection<User> getAll() {
         return executeQuery("SELECT id,name,password,email,phoneNumber FROM users", resultSet -> {
             // BeanInfo -> IntrospectionException
@@ -121,8 +95,6 @@ public class DatabaseUserRepository implements UserRepository {
                     // 以 id 为例，  user.setId(resultSet.getLong("id"));
                     setterMethodFromUser.invoke(user, resultValue);
                 }
-                // fix
-                users.add(user);
             }
             return users;
         }, e -> {
@@ -154,8 +126,7 @@ public class DatabaseUserRepository implements UserRepository {
                 // Boolean -> boolean
                 String methodName = preparedStatementMethodMappings.get(argType);
                 Method method = PreparedStatement.class.getMethod(methodName, wrapperType);
-                // fix
-                method.invoke(preparedStatement, i + 1, arg);
+                method.invoke(preparedStatement, i + 1, args);
             }
             ResultSet resultSet = preparedStatement.executeQuery();
             // 返回一个 POJO List -> ResultSet -> POJO List

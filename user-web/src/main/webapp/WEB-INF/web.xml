@@ -7,9 +7,13 @@
 
     <!-- 请确保这个 Listener 放置在首位 -->
     <listener>
-        <listener-class>org.geektimes.projects.user.web.listener.DBConnectionInitializerListener</listener-class>
+        <listener-class>org.geektimes.projects.user.web.listener.ComponentContextInitializerListener</listener-class>
     </listener>
     
+    <listener>
+        <listener-class>org.geektimes.projects.user.web.listener.TestingListener</listener-class>
+    </listener>
+
     <servlet>
         <servlet-name>default</servlet-name>
         <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -37,7 +41,7 @@
 
     <servlet>
         <servlet-name>FrontControllerServlet</servlet-name>
-        <servlet-class>org.geektimes.web.mvc.FrontControllerServlet</servlet-class>
+        <servlet-class>org.geektimes.context.FrontControllerServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
@@ -60,9 +64,9 @@
         <filter-name>CharsetEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
         <dispatcher>REQUEST</dispatcher>
-<!--        <dispatcher>FORWARD</dispatcher>-->
-<!--        <dispatcher>INCLUDE</dispatcher>-->
-<!--        <dispatcher>ERROR</dispatcher>-->
+        <dispatcher>FORWARD</dispatcher>
+        <dispatcher>INCLUDE</dispatcher>
+        <dispatcher>ERROR</dispatcher>
     </filter-mapping>
 
 
@@ -90,12 +94,24 @@
         <welcome-file>/index.jsp</welcome-file>
     </welcome-file-list>
 
-    <resource-ref>
-        <description>DB Connection</description>
-        <!-- JNDI javax.naming.Name -->
-        <res-ref-name>jdbc/UserPlatformDB</res-ref-name>
-        <res-type>javax.sql.DataSource</res-type>
-        <res-auth>Container</res-auth>
-    </resource-ref>
+<!--    <resource-ref>-->
+<!--        <description>DB Connection</description>-->
+<!--        &lt;!&ndash; JNDI javax.naming.Name &ndash;&gt;-->
+<!--        <res-ref-name>jdbc/UserPlatformDB</res-ref-name>-->
+<!--        <res-type>javax.sql.DataSource</res-type>-->
+<!--        <res-auth>Container</res-auth>-->
+<!--    </resource-ref>-->
+
+<!--    <resource-env-ref>-->
+<!--        <description>-->
+<!--            Object factory for DBConnectionManager instances.-->
+<!--        </description>-->
+<!--        <resource-env-ref-name>-->
+<!--            bean/DBConnectionManager-->
+<!--        </resource-env-ref-name>-->
+<!--        <resource-env-ref-type>-->
+<!--            org.geektimes.projects.user.sql.DBConnectionManager-->
+<!--        </resource-env-ref-type>-->
+<!--    </resource-env-ref>-->
 
 </web-app>

@@ -6,10 +6,10 @@
          metadata-complete="true" version="2.5">
 
     <!-- 请确保这个 Listener 放置在首位 -->
-    <listener>
+    <!--<listener>
         <listener-class>org.geektimes.projects.user.web.listener.DBConnectionInitializerListener</listener-class>
-    </listener>
-    
+    </listener>-->
+
     <servlet>
         <servlet-name>default</servlet-name>
         <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -37,7 +37,7 @@
 
     <servlet>
         <servlet-name>FrontControllerServlet</servlet-name>
-        <servlet-class>org.geektimes.web.mvc.FrontControllerServlet</servlet-class>
+        <servlet-class>org.geektimes.context.FrontControllerServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
