@@ -32,7 +32,7 @@ public class User implements Serializable {
     private String email;
 
     @Column
-    @Pattern(regexp = "1[0-9]{10}", message = "手机号格式错误")
+    @Pattern(regexp = "1[3456789]\\d{9}", message = "手机号格式错误")
     @NotNull
     private String phoneNumber;
 

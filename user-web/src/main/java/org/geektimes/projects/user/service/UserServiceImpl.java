@@ -22,7 +22,6 @@ public class UserServiceImpl implements UserService {
         // before process
 //        EntityTransaction transaction = entityManager.getTransaction();
 //        transaction.begin();
-
         // 主调用
         entityManager.persist(user);
 

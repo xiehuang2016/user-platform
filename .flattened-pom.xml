@@ -12,6 +12,7 @@
     <module>user-web</module>
   </modules>
   <properties>
+    <microprofile-config-api.version>2.0</microprofile-config-api.version>
     <commons-validator.version>1.7</commons-validator.version>
     <maven.flatten.version>1.2.5</maven.flatten.version>
     <hibernate.version>5.4.29.Final</hibernate.version>
@@ -24,6 +25,7 @@
     <maven.compiler.source>8</maven.compiler.source>
     <maven.deploy.version>2.8.2</maven.deploy.version>
     <maven.war.version>3.3.1</maven.war.version>
+    <commons-configuration.version>1.10</commons-configuration.version>
     <maven.compiler.target>8</maven.compiler.target>
     <maven.compiler.version>3.8.1</maven.compiler.version>
     <jstl.version>1.2</jstl.version>
@@ -60,6 +62,11 @@
         <version>${commons-validator.version}</version>
       </dependency>
       <dependency>
+        <groupId>commons-configuration</groupId>
+        <artifactId>commons-configuration</artifactId>
+        <version>${commons-configuration.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.derby</groupId>
         <artifactId>derby</artifactId>
         <version>${derby.version}</version>
@@ -78,6 +85,11 @@
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-validator</artifactId>
         <version>${hibernate.validator.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.microprofile.config</groupId>
+        <artifactId>microprofile-config-api</artifactId>
+        <version>${microprofile-config-api.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

@@ -25,10 +25,12 @@ public class DelegatingEntityManager implements EntityManager {
 
     private String propertiesLocation;
 
+    // EntityManager 线程不安全
     private EntityManager entityManager;
 
     @PostConstruct
     public void init() {
+        // EntityManagerFactory 线程安全
         EntityManagerFactory entityManagerFactory =
                 Persistence.createEntityManagerFactory(persistenceUnitName, loadProperties(propertiesLocation));
         this.entityManager = entityManagerFactory.createEntityManager();
