@@ -1,6 +1,7 @@
 package org.geektimes.web.mvc;
 
 import org.apache.commons.lang.StringUtils;
+import org.eclipse.microprofile.config.Config;
 import org.geektimes.web.mvc.controller.Controller;
 import org.geektimes.web.mvc.controller.PageController;
 import org.geektimes.web.mvc.controller.RestController;
@@ -51,6 +52,13 @@ public class FrontControllerServlet extends HttpServlet implements Container {
      */
     @Override
     public void init(ServletConfig servletConfig) {
+        ServletContext servletContext = servletConfig.getServletContext();
+        Config config = (Config) servletContext.getAttribute("SERVLET_CONFIG");
+        // 另外一个方式
+        //ConfigProviderResolver configProviderResolver = ConfigProviderResolver.instance();
+        //Config config = configProviderResolver.getConfig();
+        System.out.println("web-mvc模块获取参数{application.name}:"+config.getValue("application.name",String.class));
+        
         Container container = (Container) servletConfig.getServletContext().getAttribute("org.geektimes.projects.user.ioc.IocContainer");
         setParentContainer(container);
         initHandleMethods();
