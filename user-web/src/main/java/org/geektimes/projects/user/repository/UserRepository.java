@@ -21,7 +21,6 @@ public interface UserRepository {
     User getById(Long userId);
 
     User getByNameAndPassword(String userName, String password);
-    User getByPhoneNumber(String phoneNumber);
 
     Collection<User> getAll();
 }

@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3032fbe-0dad-4fe6-b1e4-d5c7e7735c62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.flattened-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DbConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/sql/DbDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/.tomcat_executable_archive.timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/.tomcat_executable_archive.timestamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/logs/access_log.2021-03-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/META-INF/maven/org.geekbang.projects/user-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/registerResult_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/registerResult_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.extract/work/Tomcat/localhost/_/org/apache/jsp/register_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/context/FrontControllerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT-war-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-web/target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-web/target/war-exec.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +40,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1p91cJubfTvNjXC1wdUM5KahhI8" />
@@ -33,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user-web/src/main/java/org/geektimes/projects/user/management" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -44,10 +70,18 @@
       <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geektimes.web.mvc" />
+      <recent name="org.geektimes.projects.user.logging" />
+      <recent name="org.geektimes.configuration.microprofile.config.source" />
+      <recent name="org.geektimes.configuration.microprofile.config" />
       <recent name="org.geektimes.projects.user.web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp" />
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\management" />
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes" />
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\resources\META-INF\services" />
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\resources\META-INF" />
+      <recent name="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,7 +96,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserWebLoggingConfiguration">
+    <configuration name="BeanValidationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.validator.bean.validation.BeanValidationDemo" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.validator.bean.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DBConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.sql.DBConnectionManager" />
       <module name="user-web" />
@@ -76,8 +123,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JpaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.orm.jpa.JpaDemo" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.orm.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserWebLoggingConfiguration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.geektimes.projects.user.logging.UserWebLoggingConfiguration" />
+      <module name="user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.geektimes.projects.user.logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserWebLoggingConfiguration" />
+        <item itemvalue="Application.BeanValidationDemo" />
+        <item itemvalue="Application.JpaDemo" />
         <item itemvalue="Application.DBConnectionManager" />
       </list>
     </recent_temporary>
@@ -96,7 +172,13 @@
       <workItem from="1614590703031" duration="8554000" />
       <workItem from="1614646575611" duration="18764000" />
       <workItem from="1614733053779" duration="12544000" />
-      <workItem from="1614907540096" duration="8425000" />
+      <workItem from="1614907540096" duration="9470000" />
+      <workItem from="1615164595544" duration="2009000" />
+      <workItem from="1615251899454" duration="2112000" />
+      <workItem from="1615337246094" duration="29767000" />
+      <workItem from="1615426031337" duration="4711000" />
+      <workItem from="1615510990977" duration="1939000" />
+      <workItem from="1615964805770" duration="14730000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@
 		用户注册
 	</div>
 	<div>
-		<form action="/user/register" method="post" >
+		<form action="${pageContext.request.contextPath}/doUser/create" method="post" >
 			<label>姓名</label><input type="text" required="true" name="name"/>
 			<label>密码</label><input type="password" required="true" name="password"/>
 			<label>邮箱</label><input type="text" required="true" name="email"/>

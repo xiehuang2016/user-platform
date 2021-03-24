@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c3b4a1d-d44c-4f69-9b8c-8db3a06f36ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.extract/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.extract/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/artifacts/user_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/artifacts/user_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/libraries/Maven__org_apache_tomcat_tomcat_dbcp_7_0_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../my-web-mvc/target/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../user-platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../user-platform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.flattened-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.flattened-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/context/ComponentContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/DatabaseUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/InMemoryUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/sql/DBConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/sql/DBConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/web/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/web/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/org/geektimes/projects/user/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/DatabaseUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/DatabaseUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/InMemoryUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/sql/DBConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/sql/DBConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/sql/DbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/sql/DbDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/web/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/web/controller/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT-war-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT-war-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/DatabaseUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/DatabaseUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/InMemoryUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/sql/DBConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/sql/DBConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/sql/DbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/sql/DbDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/classes/org/geektimes/projects/user/web/listener/DBConnectionInitializerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/lib/my-web-mvc-v1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/lib/tomcat-dbcp-7.0.37.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/user-web-v1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/war-exec.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/war-exec.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../user-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../user-web.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\code_mercyblitz\homework\user-platform\user-web\src\main\webapp\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pYgJfJmvMNkO164XMqFKFytUEV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../good/homework/user-platform" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c3b4a1d-d44c-4f69-9b8c-8db3a06f36ea" name="Default Changelist" comment="" />
+      <created>1615365366560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615365366560</updated>
+      <workItem from="1615365368256" duration="344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
