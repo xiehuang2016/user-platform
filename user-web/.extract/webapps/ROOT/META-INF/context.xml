@@ -41,13 +41,12 @@
 			  type="org.geektimes.projects.user.validator.bean.validation.DelegatingValidator"
 			  factory="org.apache.naming.factory.BeanFactory" />
 
-	<!-- 4 注入UserService -->
-	<Resource name="bean/DoUserController" auth="Container"
-			  type="org.geektimes.projects.user.web.controller.DoUserController"
-			  factory="org.apache.naming.factory.BeanFactory" />
-
 	<Resource name="bean/UserService" auth="Container"
 			  type="org.geektimes.projects.user.service.UserServiceImpl"
 			  factory="org.apache.naming.factory.BeanFactory" />
+
+	<!-- Tomcat JNDI 配置 -->
+	<Environment name="maxValue" value="12"
+				 type="java.lang.Integer" override="false"/>
 
 </Context>

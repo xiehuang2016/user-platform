@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [18/Mar/2021:14:07:49 +0800] GET /user/register HTTP/1.1 200 1212 http-bio-8080-exec-1 629
+0:0:0:0:0:0:0:1 - - [18/Mar/2021:14:07:49 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [18/Mar/2021:14:07:56 +0800] POST /doUser/create HTTP/1.1 200 811 http-bio-8080-exec-4 172
+0:0:0:0:0:0:0:1 - - [18/Mar/2021:14:07:56 +0800] GET /favicon.ico HTTP/1.1 200 - http-bio-8080-exec-5 1

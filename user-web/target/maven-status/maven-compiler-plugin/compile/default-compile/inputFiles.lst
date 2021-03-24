@@ -2,6 +2,7 @@ D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\p
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\management\UserMXBean.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\validator\bean\validation\UserValidAnnotationValidator.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\service\UserService.java
+D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\ioc\IocContainer.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\management\UserManager.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\domain\User.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\repository\DatabaseUserRepository.java
@@ -25,6 +26,7 @@ D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\c
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\configuration\microprofile\config\source\JavaSystemPropertiesConfigSource.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\orm\jpa\JpaDemo.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\web\filter\CharsetEncodingFilter.java
+D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\web\listener\ManagementInitializerListener.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\function\ThrowableAction.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\management\PlatformJMXMBeansDemo.java
 D:\code_mercyblitz\homework\user-platform\user-web\src\main\java\org\geektimes\projects\user\sql\LocalTransactional.java

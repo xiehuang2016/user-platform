@@ -11,6 +11,10 @@
     </listener>
     
     <listener>
+        <listener-class>org.geektimes.projects.user.web.listener.ManagementInitializerListener</listener-class>
+    </listener>
+    
+    <listener>
         <listener-class>org.geektimes.projects.user.web.listener.TestingListener</listener-class>
     </listener>
 
@@ -40,10 +44,21 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>jolokia</servlet-name>
+        <servlet-class>org.jolokia.http.AgentServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
         <servlet-name>FrontControllerServlet</servlet-name>
         <servlet-class>org.geektimes.context.FrontControllerServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+
+    <servlet-mapping>
+        <servlet-name>jolokia</servlet-name>
+        <url-pattern>/jolokia/*</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>FrontControllerServlet</servlet-name>
