@@ -1,32 +1,36 @@
 package org.geektimes.projects.user.service;
 
 import org.geektimes.projects.user.domain.User;
-import org.geektimes.projects.user.sql.LocalTransactional;
+import org.geektimes.projects.user.repository.UserRepository;
+import org.geektimes.projects.user.transaction.annotation.LocalTransactional;
 
 import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.validation.Validator;
+import java.util.Collection;
 
 public class UserServiceImpl implements UserService {
 
-    @Resource(name = "bean/EntityManager")
-    private EntityManager entityManager;
+    @Resource(name = "bean/DatabaseUserRepository")
+    private UserRepository userRepository;
+
+    @Resource(name = "bean/UserService2")
+    private UserService2 userService2;
 
     @Resource(name = "bean/Validator")
     private Validator validator;
 
     @Override
     // 默认需要事务
-    @LocalTransactional
     public boolean register(User user) {
         // before process
 //        EntityTransaction transaction = entityManager.getTransaction();
 //        transaction.begin();
         // 主调用
-        entityManager.persist(user);
+        userRepository.save(user);
 
         // 调用其他方法方法
-        update(user); // 涉及事务
+//        update(user); // 涉及事务
         // register 方法和 update 方法存在于同一线程
         // register 方法属于 Outer 事务（逻辑）
         // update 方法属于 Inner 事务（逻辑）
@@ -61,7 +65,6 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @LocalTransactional
     public boolean update(User user) {
         return false;
     }
@@ -74,5 +77,24 @@ public class UserServiceImpl implements UserService {
     @Override
     public User queryUserByNameAndPassword(String name, String password) {
         return null;
+    }
+
+    @Override
+    @LocalTransactional
+    public Collection<User> queryAll() {
+        return userRepository.getAll();
+    }
+
+    @LocalTransactional
+    @Override
+    public void test() {
+        User user = new User();
+        user.setName("111");
+        user.setEmail("111");
+        user.setPassword("****");
+        user.setPhoneNumber("111");
+        userRepository.save(user);
+        userService2.test2(user, null);
+        int s = 2/0;
     }
 }

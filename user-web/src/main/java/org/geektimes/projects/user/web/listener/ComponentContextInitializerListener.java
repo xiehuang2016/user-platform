@@ -1,6 +1,8 @@
 package org.geektimes.projects.user.web.listener;
 
 import org.geektimes.context.ComponentContext;
+import org.geektimes.projects.user.ioc.IoCContainer;
+import org.geektimes.projects.user.repository.DatabaseUserRepository;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
@@ -16,10 +18,15 @@ public class ComponentContextInitializerListener implements ServletContextListen
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        this.servletContext = sce.getServletContext();
-        servletContext.log("servletContext initialized");
-        ComponentContext context = new ComponentContext();
-        context.init(servletContext);
+//        this.servletContext = sce.getServletContext();
+//        servletContext.log("servletContext initialized");
+//        ComponentContext context = new ComponentContext();
+//        context.init(servletContext);
+        IoCContainer container = new IoCContainer();
+        sce.getServletContext().setAttribute(IoCContainer.IoC_NAME, container);
+        IoCContainer.addServletContext(getClass().getClassLoader(), sce.getServletContext());
+        container.init();
+        new DatabaseUserRepository().initDatabase();
     }
 
     @Override

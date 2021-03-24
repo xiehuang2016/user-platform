@@ -19,6 +19,13 @@
           </element>
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
           <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="archive" name="my-configuration-v1-SNAPSHOT.jar">
+            <element id="module-output" name="my-configuration" />
+          </element>
+          <element id="library" level="project" name="Maven: org.eclipse.microprofile.config:microprofile-config-api:2.0" />
+          <element id="archive" name="my-dependency-injection-v1-SNAPSHOT.jar">
+            <element id="module-output" name="my-dependency-injection" />
+          </element>
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: commons-validator:commons-validator:1.7" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.4" />
@@ -50,9 +57,12 @@
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Maven: javax.el:javax.el-api:3.0.0" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.el:3.0.1-b11" />
-          <element id="library" level="project" name="Maven: org.eclipse.microprofile.config:microprofile-config-api:2.0" />
           <element id="library" level="project" name="Maven: org.jolokia:jolokia-core:1.6.0" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: cglib:cglib:2.2.2" />
+          <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.55" />
         </element>
       </element>
       <element id="directory" name="META-INF">

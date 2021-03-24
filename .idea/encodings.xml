@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-configuration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-dependency-injection" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my-web-mvc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-web" charset="UTF-8" />
   </component>

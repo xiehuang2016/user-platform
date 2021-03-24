@@ -1,5 +1,7 @@
 package org.geektimes.projects.user.domain;
 
+import org.geektimes.projects.user.validator.annotation.PhoneNumber;
+
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.io.Serializable;
@@ -31,9 +33,10 @@ public class User implements Serializable {
     @Column
     private String email;
 
-    @Column
-    @Pattern(regexp = "1[3456789]\\d{9}", message = "手机号格式错误")
-    @NotNull
+//    @Column
+//    @Pattern(regexp = "1[3456789]\\d{9}", message = "手机号格式错误")
+//    @NotNull
+    @PhoneNumber
     private String phoneNumber;
 
     public Long getId() {

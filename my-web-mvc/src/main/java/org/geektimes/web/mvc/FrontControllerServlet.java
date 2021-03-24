@@ -5,6 +5,7 @@ import org.geektimes.web.mvc.controller.Controller;
 import org.geektimes.web.mvc.controller.PageController;
 import org.geektimes.web.mvc.controller.RestController;
 import org.geektimes.web.mvc.ioc.Container;
+import org.geektimes.web.mvc.validator.ValidatorDelegate;
 
 import javax.annotation.Resource;
 import javax.servlet.RequestDispatcher;
@@ -14,12 +15,18 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 import javax.ws.rs.HttpMethod;
 import javax.ws.rs.Path;
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.Arrays.asList;
@@ -44,7 +51,7 @@ public class FrontControllerServlet extends HttpServlet implements Container {
      */
     @Override
     public void init(ServletConfig servletConfig) {
-        Container container = (Container) servletConfig.getServletContext().getAttribute("");
+        Container container = (Container) servletConfig.getServletContext().getAttribute("org.geektimes.projects.user.ioc.IocContainer");
         setParentContainer(container);
         initHandleMethods();
     }
@@ -137,6 +144,68 @@ public class FrontControllerServlet extends HttpServlet implements Container {
                 return;
             }
         }
+    }
+
+    private Map<String, String> validateBean(Method handlerMethod, Object[] parameters) {
+        Map<String, String> error = new HashMap<>();
+        Annotation[][] parameterAnnotations = handlerMethod.getParameterAnnotations();
+        ValidatorDelegate validatorDelegate = (ValidatorDelegate) getObject("bean/ValidatorDelegate");
+        for(int i=0; i<parameters.length; i++) {
+            Annotation[] annotations = parameterAnnotations[i];
+            List<? extends Class<? extends Annotation>> an = Stream.of(annotations).map(a -> a.getClass()).collect(Collectors.toList());
+            boolean isValidator = false;
+            for (Class<? extends Annotation> aClass : an) {
+                if(Valid.class.isAssignableFrom(aClass)) {
+                    isValidator = true;
+                    break;
+                }
+            }
+            if(isValidator) {
+                error.putAll(validatorDelegate.validate(parameters[i]));
+            }
+        }
+        return error;
+    }
+
+    /**
+     * 将 HttpServletRequest 请求中的参数，转换为对应的实体类
+     * @param parameterMap 请求参数Map
+     * @param parameterType 要转换的对象的类型
+     * @return 转换后的对象
+     */
+    private Object convertRequestParamsToEntity(Map<String, String[]> parameterMap, Class<?> parameterType) {
+        try {
+            if(parameterType.isArray() || Collection.class.isAssignableFrom(parameterType) ||
+                    Map.class.isAssignableFrom(parameterType)) {
+                // TODO
+                return null;
+            } else {
+                Object obj = parameterType.getConstructor().newInstance();
+                BeanInfo beanInfo = Introspector.getBeanInfo(parameterType, Object.class);
+                for (PropertyDescriptor property : beanInfo.getPropertyDescriptors()) {
+                    String fieldName = property.getName();
+                    // TODO
+                    Object[] values = parameterMap.get(fieldName);
+                    if (values != null && values.length > 0) {
+                        Object val = values[0];
+                        Method writeMethod = property.getWriteMethod();
+                        writeMethod.invoke(obj, val);
+                    }
+                }
+                return obj;
+            }
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (IntrospectionException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     /**
